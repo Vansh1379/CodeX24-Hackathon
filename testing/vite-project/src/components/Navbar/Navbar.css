@@ -1,0 +1,48 @@
+.navbar {
+    /* background: linear-gradient(#031707, #042a39); */
+    background-color: #030717;
+    color: rgb(90, 225, 249);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-style: italic;
+    margin-left: 35px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar-buttons {
+
+    display: flex;
+    gap: 10px;
+}
+
+
+.navbar-button {
+
+    font-size: larger;
+    font-family: 'Helvetica Rounded', sans-serif;
+    margin-left: 5px;
+    background-color: transparent;
+    color: rgb(8, 201, 235);
+    text-shadow: 0 0 10px rgb(5, 152, 179), 0 0 20px #35a9d7, 0 0 30px rgb(43, 181, 199);
+    /* Add multiple shadows to create the glow effect */
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    opacity: .8;
+    transition: all-ease;
+}
+
+.navbar-button:hover {
+    height: 34px;
+    width: 120px;
+
+    box-shadow: 5px 5px 10px rgba(13, 147, 177, 0.5);
+    border-radius: 10px;
+}

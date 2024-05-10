@@ -1,0 +1,7 @@
+.HeroSection {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #030717;
+}

@@ -1,0 +1,99 @@
+.MainCard {
+    box-shadow: 5px 5px 10px rgba(51, 179, 188, 0.5);
+    border-radius: 0.5rem;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.Heading {
+    margin-left: 5px;
+}
+
+.DivImage {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 40px; */
+    margin-bottom: 30px;
+    height: 200px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.ImageBox {
+    height: 30px;
+    width: 30px;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(177, 167, 167, 0.1);
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: semibold;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.card-date {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-content {
+    box-shadow: 5px 5px 10px rgba(102, 170, 185, 0.5);
+    background-color: #262626;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.button-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+}
+
+
+.secondary-button {
+    background-color: #71b8cb;
+}
+
+.error-button {
+    background-color: #9b9b9b;
+}
+
+.fas {
+    margin-right: 0.5rem;
+}
